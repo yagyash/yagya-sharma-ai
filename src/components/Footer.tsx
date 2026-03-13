@@ -1,5 +1,8 @@
 const links = ["Home", "Services", "Work", "About", "Process", "Contact"];
-const socials = ["LinkedIn", "Instagram", "Twitter"];
+const socials = [
+  { name: "LinkedIn", url: "https://linkedin.com/in/yagya-sharma-a860798a" },
+  { name: "Instagram", url: "https://instagram.com/yagyasharma" },
+];
 
 const Footer = () => {
   const scrollTo = (id: string) => {
