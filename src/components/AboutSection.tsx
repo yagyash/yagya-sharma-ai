@@ -20,10 +20,10 @@ const AboutSection = () => {
               AI Builder.<br />Operator.<br />Problem Solver.
             </h2>
             <p className="text-sm md:text-base text-muted-foreground mb-4 leading-relaxed">
-              I'm Yagya Sharma, an AI solutions provider helping businesses and creators leverage artificial intelligence to automate operations, create stunning visuals, and build modern digital experiences. I combine technical tools with creative thinking to deliver results that actually move the needle.
+              I'm Yagya Sharma, an AI solutions provider helping businesses and creators leverage artificial intelligence to automate operations, create stunning visuals, and build modern digital experiences.
             </p>
             <p className="text-sm md:text-base text-muted-foreground mb-8 leading-relaxed">
-              From building revenue tracking systems and AI voice agents to editing product photos and vibe-coding websites — I handle the full spectrum of AI-powered services so you don't have to figure it out alone.
+              From building n8n automation systems and AI voice agents to generating professional e-commerce photos, UGC AI ads, product videos, and high-CTR thumbnails — I handle the full spectrum of AI-powered services.
             </p>
 
             <h3 className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">Tools I Use</h3>

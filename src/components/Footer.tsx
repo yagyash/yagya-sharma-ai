@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center">
-          <p className="font-heading text-6xl md:text-8xl lg:text-9xl font-bold text-muted-foreground/10">©2025</p>
+          <p className="font-heading text-6xl md:text-8xl lg:text-9xl font-bold text-muted-foreground/10">©2026</p>
         </div>
 
         <div className="flex justify-end mt-8">

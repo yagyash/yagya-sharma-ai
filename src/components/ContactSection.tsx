@@ -9,22 +9,28 @@ const ContactSection = () => {
 
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center">
           <h2 className="font-heading text-4xl md:text-6xl lg:text-8xl font-bold text-foreground mb-4">Let's Build Something.</h2>
-          <p className="text-muted-foreground mb-10 max-w-md mx-auto">Book a free 15-minute discovery call or send a message directly.</p>
+          <p className="text-muted-foreground mb-10 max-w-md mx-auto">Reach out directly — no gatekeepers, no agencies. Just Yagya.</p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-10">
-            <a href="#" className="px-8 py-3 bg-primary text-primary-foreground text-sm font-medium tracking-wide hover:opacity-90 transition-opacity">
+            <a href="tel:+918553071171" className="px-8 py-3 bg-primary text-primary-foreground text-sm font-medium tracking-wide hover:opacity-90 transition-opacity">
               Book a Call →
             </a>
-            <a href="#" className="px-8 py-3 border border-foreground text-foreground text-sm tracking-wide hover:bg-foreground hover:text-background transition-colors">
+            <a href="mailto:yagya.sharma14@gmail.com" className="px-8 py-3 border border-foreground text-foreground text-sm tracking-wide hover:bg-foreground hover:text-background transition-colors">
               Send a Message
             </a>
           </div>
 
-          <p className="text-sm text-muted-foreground mb-4">hello@yagyasharma.com</p>
+          <div className="flex flex-col items-center gap-2 mb-4">
+            <a href="mailto:yagya.sharma14@gmail.com" className="text-sm text-muted-foreground hover:text-foreground transition-colors">yagya.sharma14@gmail.com</a>
+            <a href="tel:+918553071171" className="text-sm text-muted-foreground hover:text-foreground transition-colors">+91 85530 71171</a>
+          </div>
           <div className="flex justify-center gap-6">
-            {["LinkedIn", "Instagram", "Twitter"].map((s) => (
-              <a key={s} href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors tracking-wide uppercase">
-                {s}
+            {[
+              { name: "LinkedIn", url: "https://linkedin.com/in/yagya-sharma-a860798a" },
+              { name: "Instagram", url: "https://instagram.com/yagyasharma" },
+            ].map((s) => (
+              <a key={s.name} href={s.url} target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground hover:text-foreground transition-colors tracking-wide uppercase">
+                {s.name}
               </a>
             ))}
           </div>

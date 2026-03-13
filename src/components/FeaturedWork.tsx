@@ -5,12 +5,13 @@ import workEcomEdit from "@/assets/work-ecom-edit.png";
 import workBookings from "@/assets/work-bookings.png";
 import workExpenses from "@/assets/work-expenses.png";
 import workLandingPage from "@/assets/work-landing-page.png";
+import workThumbnailYt from "@/assets/work-thumbnail-yt.jpg";
 
 const projects = [
   { name: "Business Revenue Dashboard", cat: "AI Automation", num: "01", img: workDashboard },
   { name: "E-com Product Photo Edit", cat: "AI Visuals", num: "02", img: workEcomEdit },
   { name: "AI Voice Booking Agent", cat: "Voice Agents", num: "03", img: workBookings },
-  { name: "YouTube Thumbnail Pack", cat: "AI Visuals", num: "04", img: workEcomEdit },
+  { name: "YouTube Thumbnail Pack", cat: "AI Visuals", num: "04", img: workThumbnailYt },
   { name: "Personal Expense Tracker", cat: "Business Intelligence", num: "05", img: workExpenses },
   { name: "Vibe-Coded Landing Page", cat: "Web & Tech", num: "06", img: workLandingPage },
 ];
