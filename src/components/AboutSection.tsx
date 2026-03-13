@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import SectionHeader from "./SectionHeader";
 import profilePhoto from "@/assets/profile-photo.png";
 
-const tools = ["n8n", "Claude AI", "ChatGPT", "Midjourney", "RunwayML", "Bolt.new", "Make.com", "ElevenLabs", "Cursor", "Framer"];
+const tools = ["n8n", "Claude AI", "ChatGPT", "Google Gemini", "Midjourney", "RunwayML", "Higgsfield AI", "Kling AI", "Bolt.new", "Make.com", "ElevenLabs", "Cursor", "Framer", "Canva"];
 
 const AboutSection = () => {
   return (
