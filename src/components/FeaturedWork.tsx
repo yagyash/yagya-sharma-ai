@@ -38,6 +38,7 @@ const FeaturedWork = () => {
               className={`glow-card bg-card border border-border rounded-lg overflow-hidden group ${i === 0 || i === 5 ? "md:col-span-2" : ""}`}
             >
               <div className="aspect-video bg-secondary relative overflow-hidden">
+                <img src={p.img} alt={p.name} className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/60" />
                 <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between">
                   <div>
