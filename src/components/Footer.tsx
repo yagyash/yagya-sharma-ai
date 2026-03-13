@@ -27,8 +27,8 @@ const Footer = () => {
             <h3 className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">Social</h3>
             <div className="flex md:justify-end gap-6">
               {socials.map((s) => (
-                <a key={s} href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  {s}
+                <a key={s.name} href={s.url} target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  {s.name}
                 </a>
               ))}
             </div>
