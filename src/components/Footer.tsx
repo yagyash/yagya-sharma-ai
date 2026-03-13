@@ -1,5 +1,8 @@
 const links = ["Home", "Services", "Work", "About", "Process", "Contact"];
-const socials = ["LinkedIn", "Instagram", "Twitter"];
+const socials = [
+  { name: "LinkedIn", url: "https://linkedin.com/in/yagya-sharma-a860798a" },
+  { name: "Instagram", url: "https://instagram.com/yagyasharma" },
+];
 
 const Footer = () => {
   const scrollTo = (id: string) => {
@@ -24,8 +27,8 @@ const Footer = () => {
             <h3 className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">Social</h3>
             <div className="flex md:justify-end gap-6">
               {socials.map((s) => (
-                <a key={s} href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  {s}
+                <a key={s.name} href={s.url} target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  {s.name}
                 </a>
               ))}
             </div>
@@ -33,7 +36,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center">
-          <p className="font-heading text-6xl md:text-8xl lg:text-9xl font-bold text-muted-foreground/10">©2025</p>
+          <p className="font-heading text-6xl md:text-8xl lg:text-9xl font-bold text-muted-foreground/10">©2026</p>
         </div>
 
         <div className="flex justify-end mt-8">
