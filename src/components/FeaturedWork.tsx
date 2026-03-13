@@ -1,13 +1,19 @@
 import { motion } from "framer-motion";
 import SectionHeader from "./SectionHeader";
+import workDashboard from "@/assets/work-dashboard.png";
+import workThumbnail1 from "@/assets/work-thumbnail-1.png";
+import workBookings from "@/assets/work-bookings.png";
+import workThumbnail2 from "@/assets/work-thumbnail-2.png";
+import workExpenses from "@/assets/work-expenses.png";
+import workThumbnail3 from "@/assets/work-thumbnail-3.png";
 
 const projects = [
-  { name: "Business Revenue Dashboard", cat: "AI Automation", num: "01" },
-  { name: "E-com Product Photo Edit", cat: "AI Visuals", num: "02" },
-  { name: "AI Voice Booking Agent", cat: "Voice Agents", num: "03" },
-  { name: "YouTube Thumbnail Pack", cat: "AI Visuals", num: "04" },
-  { name: "Personal Expense Tracker", cat: "Business Intelligence", num: "05" },
-  { name: "Vibe-Coded Landing Page", cat: "Web & Tech", num: "06" },
+  { name: "Business Revenue Dashboard", cat: "AI Automation", num: "01", img: workDashboard },
+  { name: "E-com Product Photo Edit", cat: "AI Visuals", num: "02", img: workThumbnail1 },
+  { name: "AI Voice Booking Agent", cat: "Voice Agents", num: "03", img: workBookings },
+  { name: "YouTube Thumbnail Pack", cat: "AI Visuals", num: "04", img: workThumbnail2 },
+  { name: "Personal Expense Tracker", cat: "Business Intelligence", num: "05", img: workExpenses },
+  { name: "Vibe-Coded Landing Page", cat: "Web & Tech", num: "06", img: workThumbnail3 },
 ];
 
 const FeaturedWork = () => {
@@ -32,6 +38,7 @@ const FeaturedWork = () => {
               className={`glow-card bg-card border border-border rounded-lg overflow-hidden group ${i === 0 || i === 5 ? "md:col-span-2" : ""}`}
             >
               <div className="aspect-video bg-secondary relative overflow-hidden">
+                <img src={p.img} alt={p.name} className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/60" />
                 <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between">
                   <div>
