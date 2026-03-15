@@ -53,9 +53,15 @@ const FeaturedWork = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="px-8 py-3 border border-foreground text-foreground text-sm tracking-wide hover:bg-foreground hover:text-background transition-colors">
-            See All Work →
-          </button>
+          <a
+            href="https://drive.google.com/drive/folders/1a-n7qF06vxtHq5OK8mN_iA-04h2AiOVN?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="px-8 py-3 border border-foreground text-foreground text-sm tracking-wide hover:bg-foreground hover:text-background transition-colors">
+              See All Work →
+            </button>
+          </a>
         </div>
       </div>
     </section>
