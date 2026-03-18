@@ -33,8 +33,14 @@ const Navbar = () => {
         </div>
 
         {/* Mobile toggle */}
-        <button onClick={() => setMobileOpen(!mobileOpen)} className="md:hidden text-foreground">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <button
+          onClick={() => setMobileOpen(!mobileOpen)}
+          className="md:hidden text-foreground"
+          aria-label={mobileOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-expanded={mobileOpen}
+          aria-controls="mobile-menu"
+        >
+          <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             {mobileOpen ? <path d="M18 6L6 18M6 6l12 12" /> : <><line x1="4" y1="7" x2="20" y2="7" /><line x1="4" y1="12" x2="20" y2="12" /><line x1="4" y1="17" x2="20" y2="17" /></>}
           </svg>
         </button>
@@ -42,7 +48,7 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden bg-background border-t border-border px-6 py-4 space-y-3">
+        <div id="mobile-menu" className="md:hidden bg-background border-t border-border px-6 py-4 space-y-3">
           {navLinks.map((link) => (
             <button key={link} onClick={() => scrollTo(link)} className="block text-sm text-muted-foreground hover:text-foreground transition-colors w-full text-left py-1">
               {link}
