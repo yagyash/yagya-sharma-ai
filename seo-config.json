@@ -1,0 +1,6 @@
+{
+  "type": "portfolio",
+  "domain": "https://yagyaistudio.vercel.app/",
+  "site_name": "Yagya Sharma",
+  "public_routes": ["/"]
+}
