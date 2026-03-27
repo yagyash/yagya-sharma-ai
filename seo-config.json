@@ -1,6 +1,57 @@
 {
   "type": "portfolio",
-  "domain": "https://yagyaistudio.vercel.app/",
+  "domain": "https://yagyaistudio.vercel.app",
   "site_name": "Yagya Sharma",
-  "public_routes": ["/"]
+  "description": "Yagya Sharma builds AI-powered systems, voice agents, revenue automation, AI visuals, and vibe-coded websites for modern businesses. Based in India, working globally.",
+  "public_routes": ["/"],
+  "routes_meta": {
+    "/": {
+      "title": "Yagya Sharma — AI Builder & Automation Specialist",
+      "description": "Yagya Sharma builds AI-powered systems, voice agents, revenue automation, AI visuals, and vibe-coded websites for modern businesses. Based in India, working globally."
+    }
+  },
+  "faq": [
+    {
+      "q": "What services do you offer?",
+      "a": "I offer AI automation, AI visual generation and editing, vibe-coded website development, voice agent building, and business intelligence solutions like revenue tracking and P&L reporting."
+    },
+    {
+      "q": "How long does a typical project take?",
+      "a": "Most projects are delivered within 3–7 days depending on complexity. Simple builds like a landing page can be done in 1–2 days, while full automation systems may take a week or more."
+    },
+    {
+      "q": "Do you work with international clients?",
+      "a": "Absolutely. I'm based in India and work with clients globally. Communication is handled via email, WhatsApp, or video calls in your timezone."
+    },
+    {
+      "q": "Can I start with a small budget project?",
+      "a": "Yes! I offer flexible pricing and can start with a small scope project to build trust. Let's discuss your needs and find a solution that fits."
+    },
+    {
+      "q": "What AI tools and platforms do you use?",
+      "a": "I work with n8n, Claude AI, ChatGPT, Midjourney, RunwayML, ElevenLabs, Agentic AI, and more depending on the project requirements."
+    },
+    {
+      "q": "How do I book a call or get started?",
+      "a": "Simply click the 'Book a Call' button anywhere on this page, or send me a message through the contact section. I'll respond within 24 hours."
+    }
+  ],
+  "contact": {
+    "email": "yagya.sharma14@gmail.com",
+    "phone": "+918553071171"
+  },
+  "social": {},
+  "services": [
+    "AI Automation",
+    "Voice Agents",
+    "n8n Workflow Automation",
+    "AI Visuals",
+    "AI Image Generation",
+    "AI Video Generation",
+    "Web Development",
+    "Landing Pages",
+    "Business Intelligence",
+    "Revenue Tracking",
+    "Monthly P&L Reports"
+  ]
 }
